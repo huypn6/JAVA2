@@ -6,6 +6,9 @@ public class Staff {
 	private String age;
 	private String salary;
 
+	public Staff() {
+	}
+
 	public Staff(String stt, String name, String age, String salary) {
 		super();
 		this.stt = stt;
